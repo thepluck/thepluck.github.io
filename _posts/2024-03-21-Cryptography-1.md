@@ -15,7 +15,7 @@ Given two integers $a$ and $m$ such that $m\ne 0$. Taking $a$ **modulo** $m$ mea
 
 **Notation:** $a\bmod m$.
 
-*Note.* The remainder of $a$ divided by $b$ is an unique integer $r$ such that $0 \le r &lt; |m|$ and there exists an integer $q$ satisfying $a=qm+r$.
+*Note.* The remainder of $a$ divided by $b$ is an unique integer $r$ such that $0 \le r \lt \|m\|$ and there exists an integer $q$ satisfying $a=qm+r$.
 
 We say that $a$ is congruent to $b$ modulo $m$ if $a\bmod m=b\bmod m$.
 
