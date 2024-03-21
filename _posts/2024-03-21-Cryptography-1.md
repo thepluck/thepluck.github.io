@@ -11,15 +11,15 @@ date: 2024-03-21
 
 ## Modulus
 
-Given two integers $a$ and $m$ such that $m\ne 0$. Taking $a$ **modulo** $m$ means calculating the remainder of $a$ divided by $m$.  The number $m$ is called the **modulus**.
+Given two integers $$a$$ and $$m$$ such that $$m\ne 0$$. Taking $$a$$ **modulo** $$m$$ means calculating the remainder of $$a$$ divided by $$m$$.  The number $$m$$ is called the **modulus**.
 
-**Notation:** $a\bmod m$.
+**Notation:** $$a\bmod m$$.
 
-*Note.* The remainder of $a$ divided by $b$ is an unique integer $r$ such that $0\le r< |m|$$ and there exists an integer $q$ satisfying $a=qm+r$.
+*Note.* The remainder of $$a$$ divided by $$b$$ is an unique integer $$r$$ such that $$0\le r< |m|$$ and there exists an integer $$q$$ satisfying $$a=qm+r$$.
 
-We say that $a$ is congruent to $b$ modulo $m$ if $a\bmod m=b\bmod m$.
+We say that $$a$$ is congruent to $$b$$ modulo $$m$$ if $$a\bmod m=b\bmod m$$.
 
-**Notation:** $a\equiv b\pmod m$.
+**Notation:** $$a\equiv b\pmod m$$.
 
 
 ```python
@@ -38,7 +38,7 @@ print(quotient * 9 + remainder)
 ## Congruence classes
 We call all numbers that differ by a **multiple of the modulus** **equivalent** or **congruent**.
 
-The congruence relation modulo $m$ divides $$\mathbb{Z}$$ into $m$ congruence classes:
+The congruence relation modulo $$m$$ divides $$\mathbb{Z}$$ into $$m$$ congruence classes:
 $$
 \begin{align*}
 \overline{0}&=\{\ldots,-2m,-m,0,m,2m,\ldots\} \\
@@ -48,9 +48,9 @@ $$
 \overline{m-1}&=\{\ldots,-m-1,-1,m-1,2m-1,3m-1,\ldots\}
 \end{align*}
 $$
-Here $$\overline{x}$$ denote the congruence class that contains $x$.
+Here $$\overline{x}$$ denote the congruence class that contains $$x$$.
 
 ## Modular multiplicative inverse
-An integer $b$ is called modular multiplicative inverse of $a$ modulo $m$ if $ab\equiv 1\pmod m$.
+An integer $$b$$ is called modular multiplicative inverse of $$a$$ modulo $$m$$ if $$ab\equiv 1\pmod m$$.
 
-**Notation:** $b=a^{-1}$$.
+**Notation:** $$b=a^{-1}$$.
